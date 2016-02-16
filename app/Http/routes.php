@@ -15,6 +15,10 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('/user', 'UserController@index');
 
+Route::get('/user/login', 'UserController@login');
+
+Route::post('/user/login', 'UserController@login');
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
