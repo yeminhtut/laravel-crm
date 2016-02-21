@@ -15,8 +15,8 @@ return [
 	|
 	*/
 
-	// 'driver' => 'eloquent',
-	'driver' => 'database',
+	'driver' => 'eloquent',
+	//'driver' => 'database',
 
 	/*
 	|--------------------------------------------------------------------------
